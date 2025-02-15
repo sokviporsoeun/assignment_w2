@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  /* Task list styles */
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  .task-list li {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  /* Priority styling */
+  .high {
+    color: red;
+  }
+  
+  .low {
+    color: gray;
+  }
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(30, 142, 241); 
+    color: white;
+    cursor: pointer;
+  }
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  /* Select dropdown styles */
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

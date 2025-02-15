@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div>
+    <label for="">Task: </label>
+    <input type="text" id="newTaskInput" placeholder="Enter task description">
+  </div>
+  <label for="">Priority: </label>
+  <select id="prioritySelect">
+    <option value="0">Low</option>
+    <option value="1">High</option>
+  </select>
+  <div class="task">
+  <button id="addTaskButton">Add Task</button>
+  </div>
+
+  <div>
+    <select id="filterSelect">
+      <option value="all">Show all tasks</option>
+      <option value="high">Show only important tasks</option>
+      <option value="low">Show the tasks that are not important</option>
+    </select>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <script src="index.js"></script> 
+
+</body>
+</html>
